@@ -8,7 +8,7 @@
 Servo servoNumber8;
 // RATIO helps turn the pot reading into a servo angle
 // dividing the pot reading by 5 gives us the angle in degrees
-const int RATIO = (1023/180);
+const int RATIO = (1023/180); // biggest 8 bit number / max degrees in the servo  
 const int potPin = A0;
 int potReading = 0;   
 int servoAngle = 0;
